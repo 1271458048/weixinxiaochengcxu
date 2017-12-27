@@ -1,0 +1,53 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/todo/todo",
+    "pages/home/home",
+    "pages/detail/detail",
+    "pages/weixin/weixin",
+    "pages/wei/wei"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "borderStyle":"black",
+    "list":[
+      {
+        "pagePath": "pages/wei/wei",
+        "text": "wei",
+        "iconPath": "public/icon/home-n.png",
+        "selectedIconPath": "public/icon/home-a.png"
+      },
+            {
+              "pagePath": "pages/weixin/weixin",
+              "text": "weixin",
+              "iconPath": "public/icon/home-n.png",
+              "selectedIconPath": "public/icon/home-a.png"
+            },
+      {
+        "pagePath":"pages/index/index",
+         "text":"index",
+         "iconPath":"public/icon/04.png",
+         "selectedIconPath":"public/icon/03.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text":"home",
+          "iconPath": "public/icon/06.png",
+          "selectedIconPath": "public/icon/05.png"
+      },
+      {
+        "pagePath": "pages/todo/todo",
+        "text":"todo" ,
+          "iconPath": "public/icon/08.png",
+          "selectedIconPath": "public/icon/07.png"
+      }
+    ]
+  }
+
+}

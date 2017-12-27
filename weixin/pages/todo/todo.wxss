@@ -1,0 +1,65 @@
+
+
+
+
+.title{
+  font-size: 60rpx;
+}
+
+.list-item{
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction:row;
+  background-color: #fff;
+  margin-top: 2px;
+}
+
+.cover{
+ text-align: center; 
+}
+
+.list-item .item-name{
+   flex: 1;
+}
+
+.list-item .item-age{
+   flex: 1;
+}
+
+page{
+  background: #ccc;
+}
+
+
+
+
+.input-panel{
+  /* display: flex; */
+  background: #fff;
+  border: solid 1px #ccc;
+}
+
+.input-panel .input-name{
+  width: 50%;
+  float: left;
+  border:solid 1px #ccc;  
+}
+.input-panel .input-age{
+  width: 50%;
+  float: left;
+  border:solid 1px #ccc;  
+}
+.input-panel .input input{
+  height: 50px;
+  width: 100%;
+  font-size: 24px;
+  border: solid 1px #ccc;
+  margin-top: 10px;
+}
+.input-panel .btn{
+ /* width: 100%; */
+}
+
+

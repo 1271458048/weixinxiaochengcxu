@@ -1,0 +1,31 @@
+<!--pages/todo/todo.wxml-->
+<text>pages/todo/todo.wxml</text>
+
+
+
+<view class='cover'>
+<text>TFBOYS</text>
+
+<view class='input-panel'>
+
+<view class="input-name"><input type='text' bindinput='bindKeyInput' value='{{name}}'></input></view>
+<view class='input-age'><input type='number' value='{{age}}' bindinput='bindKeyInputAge'></input></view>
+<view class='btn' bindtap='addhero' ><button class='weui-btn' type='primary'>添加</button></view>
+
+</view>
+
+<view class='list'>
+<!-- 实现跳转页面 -->
+<!-- <navigator  wx:for="{{tfboys}}" url='../detail/detail?name={{item.name}}&age={{item.age}}'> -->
+  <view class='list-item' wx:for="{{tfboys}}">
+
+  
+     <view class='item-name'>{{item.name}}</view>
+    <view class='item-age'>{{item.age}}</view>
+    <button bindtap='delete'>删除</button>
+  </view>
+
+  <!-- </navigator> -->
+</view>
+
+</view>
