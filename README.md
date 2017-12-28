@@ -60,5 +60,5 @@
   
   
   > 图片
-  ![网络不给力！](/public/icon/03.png)
+  ![网络不给力！](/weixin/public/icon/03.png)
    
